@@ -6,7 +6,6 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
-import com.example.test3.model.OnboardingItem
 
 class OnboardingActivity : AppCompatActivity() {
 
