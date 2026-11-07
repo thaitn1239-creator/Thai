@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Chào mừng đến với\nUTH Todo"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#111111"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Đăng nhập để quản lý công việc của bạn."
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnGoogleLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:text="Tiếp tục với Google (Giả lập)"
+        android:backgroundTint="#2E5BFF"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/tvSkipLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Dùng thử không cần tài khoản"
+        android:textColor="#2E5BFF"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+</LinearLayout>
