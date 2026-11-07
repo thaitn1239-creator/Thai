@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Nút Back -->
+        <ImageView
+            android:id="@+id/btnBack2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_back"
+            android:background="@drawable/bg_circle_blue"
+            android:padding="8dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UTH"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="#1F604C"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UNIVERSITY OF TRANSPORT\nHOCHIMINH CITY"
+                android:textSize="8sp"
+                android:textStyle="bold"
+                android:textColor="#C49A45"
+                android:gravity="center"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SmartTasks"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#4299E1"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verify Code"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter the code\nwe just sent you on your registered Email"
+                android:textSize="13sp"
+                android:textColor="#718096"
+                android:gravity="center"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- 5 ô nhập OTP -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="24dp">
+
+                <EditText android:id="@+id/otp1" style="@style/OtpBoxStyle"/>
+                <EditText android:id="@+id/otp2" style="@style/OtpBoxStyle"/>
+                <EditText android:id="@+id/otp3" style="@style/OtpBoxStyle"/>
+                <EditText android:id="@+id/otp4" style="@style/OtpBoxStyle"/>
+                <EditText android:id="@+id/otp5" style="@style/OtpBoxStyle"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnNext2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Next"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:backgroundTint="#4299E1"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
